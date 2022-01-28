@@ -1,6 +1,6 @@
 Data & Analytics - Desafio PagSeguro
 
-1) Coleta de dados (Airflow / Python / Shell)
+1) Coleta de dados (Airflow / Python / Shell) -- NÃO REALIZADA
     Criar Airflow local
     Criar banco SQL local
     Pegar dados da internet e gravar no banco SQL via DAG do Airflow
