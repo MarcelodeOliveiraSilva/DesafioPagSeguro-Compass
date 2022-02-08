@@ -5,7 +5,6 @@
     - Criar Airflow local  
     - Criar banco SQL local  
     - Pegar dados da internet e gravar no banco SQL via DAG do Airflow  
-  
     - Link do arquivo no [Kaggle.com](https://www.kaggle.com/ealaxi/banksim1?select=bs140513_032310.csv)  
     - Arquivo: bs140513_032310.csv  
     - Nome tabela: db.transactions  
@@ -30,43 +29,45 @@
   
   
 **3. Modelagem dimensional (SQL)**  
-Criar diagrama (dbdiagram.io ou similar)
-Criar Datamart com as novas tabelas
-    
-        Tabela 1: analytic.fact_merchant_kpi
-            data
-            id merchant
-            tpv
-            qtd_transacoes
 
-        Tabela 2: analytic.fact_customer_kpi
-            data
-            id customer
-            tpv
-            qtd_transacoes
+    - Criar diagrama (dbdiagram.io ou similar)
+    - Criar Datamart com as novas tabelas
+            - Tabela 1: analytic.fact_merchant_kpi
+                    - data
+                    - id merchant
+                    - tpv
+                    - qtd_transacoes
 
-        Tabela 3: analytic.dim_merchant_category
-            id merchant
-            category
+            - Tabela 2: analytic.fact_customer_kpi
+                    - data
+                    - id customer
+                    - tpv
+                    - qtd_transacoes
+
+            - Tabela 3: analytic.dim_merchant_category
+                    - id merchant
+                    - category
 
 **4. Visualização de dados (Power BI)**
 
-    Usar tabelas do schema analytic
+    - Usar tabelas do schema analytic
 
-    Criar dashboard com os dados
-        TPV por mês/ano
-        Qtd de transações por mês/ano
-        Ticket médio por mês/ano
-        TPV por category
-        Qtd de transações por category
-        Ticket médio por category
-        Top 10 customers com maior TPV
-        Top 10 customers com mais transações
-        Top 10 customers com maior Ticket Médio
-        Top 10 merchants com maior TPV
-        Top 10 merchants com mais transações
-        Top 10 merchants com maior Ticket Médio
+    - Criar dashboard com os dados
+            - TPV por mês/ano
+            - Qtd de transações por mês/ano
+            - Ticket médio por mês/ano
+            - TPV por category
+            - Qtd de transações por category
+            - Ticket médio por category
+            - Top 10 customers com maior TPV
+            - Top 10 customers com mais transações
+            - Top 10 customers com maior Ticket Médio
+            - Top 10 merchants com maior TPV
+            - Top 10 merchants com mais transações
+            - Top 10 merchants com maior Ticket Médio
 
+** Informações Extras **
+   
     TPV = SUM(amount)
     qtd transacões = COUNT(distinct id único)
     Ticket médio = tpv / qtd
