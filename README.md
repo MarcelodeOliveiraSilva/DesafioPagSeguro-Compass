@@ -1,14 +1,16 @@
 **Data & Analytics - Desafio PagSeguro**  
   
-**1. Coleta de dados (Airflow / Python / Shell)**  
   
-    - Criar Airflow local  
+  
+**1. Coleta de dados**  
+  
     - Criar banco SQL local  
-    - Pegar dados da internet e gravar no banco SQL via DAG do Airflow  
+    - Pegar dados da internet e gravar no banco SQL 
     - Link do arquivo no [Kaggle.com](https://www.kaggle.com/ealaxi/banksim1?select=bs140513_032310.csv)  
     - Arquivo: bs140513_032310.csv  
     - Nome tabela: db.transactions  
-
+  
+  
   
 **2. Limpeza de dados (SQL)**  
 
@@ -47,12 +49,13 @@
             - Tabela 3: analytic.dim_merchant_category
                     - id merchant
                     - category
-
+  
+  
+  
 **4. Visualização de dados (Power BI)**
 
     - Usar tabelas do schema analytic
-
-    - Criar dashboard com os dados
+    - Criar dashboard com os dados:
             - TPV por mês/ano
             - Qtd de transações por mês/ano
             - Ticket médio por mês/ano
@@ -65,7 +68,9 @@
             - Top 10 merchants com maior TPV
             - Top 10 merchants com mais transações
             - Top 10 merchants com maior Ticket Médio
-
+  
+  
+  
 **5. Informações Extras**  
    
     TPV = SUM(amount)
