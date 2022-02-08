@@ -6,9 +6,9 @@
   
     - Criar banco SQL local  
     - Pegar dados da internet e gravar no banco SQL 
-    - Link do arquivo no [Kaggle.com](https://www.kaggle.com/ealaxi/banksim1?select=bs140513_032310.csv)  
-    - Arquivo: bs140513_032310.csv  
-    - Nome tabela: db.transactions  
+    - Link do arquivo no Kaggle.com: https://www.kaggle.com/ealaxi/banksim1?select=bs140513_032310.csv  
+    - Nome do Arquivo: bs140513_032310.csv  
+    - Nome tabela a ser criada: db.transactions  
   
   
   
