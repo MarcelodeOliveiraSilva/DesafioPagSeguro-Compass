@@ -66,7 +66,7 @@
             - Top 10 merchants com mais transações
             - Top 10 merchants com maior Ticket Médio
 
-** Informações Extras **
+**5. Informações Extras**  
    
     TPV = SUM(amount)
     qtd transacões = COUNT(distinct id único)
