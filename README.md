@@ -1,7 +1,7 @@
 #**Data & Analytics - Desafio PagSeguro**  
   
 ##**1. Coleta de dados (Airflow / Python / Shell)**  
-'''  
+
 Criar Airflow local  
 Criar banco SQL local  
 Pegar dados da internet e gravar no banco SQL via DAG do Airflow  
@@ -9,9 +9,8 @@ Pegar dados da internet e gravar no banco SQL via DAG do Airflow
 Link do arquivo no [Kaggle.com](https://www.kaggle.com/ealaxi/banksim1?select=bs140513_032310.csv)
 arquivo bs140513_032310.csv
 Nome tabela: db.transactions
-'''
 
-'''
+
 ##**2. Limpeza de dados (SQL)**
     Criar ID único incremental para cada transação
     Transformar coluna Age em inteiro
