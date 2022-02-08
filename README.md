@@ -2,29 +2,30 @@
   
 **1. Coleta de dados (Airflow / Python / Shell)**  
   
-Criar Airflow local  
-Criar banco SQL local  
-Pegar dados da internet e gravar no banco SQL via DAG do Airflow  
+    - Criar Airflow local  
+    - Criar banco SQL local  
+    - Pegar dados da internet e gravar no banco SQL via DAG do Airflow  
   
-Link do arquivo no [Kaggle.com](https://www.kaggle.com/ealaxi/banksim1?select=bs140513_032310.csv)  
-arquivo bs140513_032310.csv  
-Nome tabela: db.transactions  
+    - Link do arquivo no [Kaggle.com](https://www.kaggle.com/ealaxi/banksim1?select=bs140513_032310.csv)  
+    - Arquivo: bs140513_032310.csv  
+    - Nome tabela: db.transactions  
 
   
 **2. Limpeza de dados (SQL)**  
-Criar ID único incremental para cada transação  
-Transformar coluna Age em inteiro  
-Deixar coluna Gender apenas com M e F  
-Deixar NULL onde coluna Amount for zero  
-Criar coluna mês:  
-step 0 a 30 = 1  
-step 31 a 60 = 2  
-step 61 a 90 = 3  
-step 91 a 120 = 4  
-step 121 a 150 = 5  
-step 151 a 180 = 6  
-Criar coluna ano: 2021  
-Criar coluna data: sempre dia 1  
+
+    - Criar ID único incremental para cada transação  
+    - Transformar coluna Age em inteiro  
+    - Deixar coluna Gender apenas com M e F  
+    - Deixar NULL onde coluna Amount for zero  
+    - Criar coluna mês:  
+            - step 0 a 30 = 1  
+            - step 31 a 60 = 2  
+            - step 61 a 90 = 3  
+            - step 91 a 120 = 4  
+            - step 121 a 150 = 5  
+            - step 151 a 180 = 6  
+    - Criar coluna ano: 2021  
+    - Criar coluna data: sempre dia 1  
   
   
   
