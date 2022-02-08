@@ -1,6 +1,6 @@
-#**Data & Analytics - Desafio PagSeguro**  
+**Data & Analytics - Desafio PagSeguro**  
   
-##**1. Coleta de dados (Airflow / Python / Shell)**  
+**1. Coleta de dados (Airflow / Python / Shell)**  
 
 Criar Airflow local  
 Criar banco SQL local  
@@ -11,7 +11,7 @@ arquivo bs140513_032310.csv
 Nome tabela: db.transactions
 
 
-##**2. Limpeza de dados (SQL)**
+**2. Limpeza de dados (SQL)**
     Criar ID único incremental para cada transação
     Transformar coluna Age em inteiro
     Deixar coluna Gender apenas com M e F
@@ -28,7 +28,7 @@ Nome tabela: db.transactions
 
 
 
-##**3. Modelagem dimensional (SQL)**
+**3. Modelagem dimensional (SQL)**
     Criar diagrama (dbdiagram.io ou similar)
     Criar Datamart com as novas tabelas
     
@@ -48,7 +48,7 @@ Nome tabela: db.transactions
             id merchant
             category
 
-##**4. Visualização de dados (Power BI)**
+**4. Visualização de dados (Power BI)**
 
     Usar tabelas do schema analytic
 
