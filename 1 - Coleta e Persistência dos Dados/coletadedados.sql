@@ -20,3 +20,7 @@ CREATE TABLE transactions(
 	amount FLOAT,
 	fraud INT
 );
+
+
+
+-- A população da tabela 'transactions' foi feita manualmente com o csv, via pgAdmin
